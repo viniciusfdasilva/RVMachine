@@ -1,0 +1,8 @@
+os: debian
+addons:
+    pkg:
+      - gcc10
+    env:
+      - CC=gcc10
+      - CXX=g++10
+
